@@ -1,0 +1,102 @@
+#: import RiseInTransition kivy.uix.screenmanager.RiseInTransition
+
+<ChatTextCard>:
+    size_hint: .9, None
+    height: '50dp'
+    text: ''
+    dateTime: ''
+    radius: '10dp'
+    spacing: '10dp'
+    padding: ['10dp', '10dp', '10dp', '10dp']
+    orientation: 'vertical'
+    ripple_behavior: True
+    on_release:
+        app.root.transition = RiseInTransition()
+    MDBoxLayout:
+        orientation: 'horizontal'
+        MDLabel:
+            text: root.text
+            halign: 'center'
+        MDLabel:
+            text: root.dateTime
+            size_hint: None, None
+            size: '30dp', '7dp'
+            halign: 'right'
+            valign: 'bottom'
+            font_size: '10dp'
+
+
+<BotMsgTextCard>:
+    md_bg_color: 0, .4, .9, 1
+
+<UserMsgTextCard>:
+    pos_hint: {'right': 1}
+    md_bg_color: .35, .7, 0, 1
+
+<ui>:
+    MDScreen:
+        name: 'main_screen'
+        md_bg_color: 0, .5, .5, 1
+        MDBoxLayout:
+            orientation: 'vertical'
+
+            # Chat header
+            MDBoxLayout:
+                size_hint: 1, .1
+                orientation: 'horizontal'
+                padding: '10dp'
+
+                MDCard:
+                    radius: '10dp'
+                    padding: '10dp'
+                    line_color: 1, 0, 1, 1
+
+                    MDLabel:
+                        text: 'ENGLISH TEACHER BOT'
+                        halign: 'center'
+                        pos_hint: {'center_y': 0.5}
+
+            # Chat body
+            MDBoxLayout:
+                size_hint: 1, .8
+                orientation: 'vertical'
+                padding: ['10dp', '10dp', '10dp', '10dp']
+
+                ScrollView:
+                    size_hint_y: .73
+                    pos_hint: {'x': 0, 'y': .11}
+                    do_scroll_x: False
+                    do_scroll_y: True
+
+                    BoxLayout:
+                        id: chatCanvas 
+                        orientation: 'vertical'
+                        size_hint: 1, None
+                        height: self.minimum_height
+
+                        UserMsgTextCard:
+                            text: 'Hola mundo!'
+
+                        BotMsgTextCard:
+                            text: 'Hello world!'
+
+
+            # Chat footer (user input)
+            MDBoxLayout:
+                size_hint: 1, .1
+                orientation: 'horizontal'
+                padding: '10dp'
+
+                TextInput:
+                    id: userInput
+                    size_hint: 1, 1
+                    pos_hint: {"x": 0.1}
+                    multiline: False
+                    on_text_validate: root.user_sent_message_event(self)
+                Button:
+                    id: sendBtn
+                    on_press: root.user_sent_message_event(userInput)
+                    text: "Send"
+                    size_hint: None, None
+                    size: "60dp", "40dp"
+                    pos_hint: {"right": 0.95}
