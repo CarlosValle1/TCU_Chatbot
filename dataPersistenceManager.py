@@ -1,25 +1,24 @@
 import json
 
-class PersistenceManager:
+class DataPersistenceManager:
     data_path = './data/'
-    questions_file_path = data_path + 'questions.json'
-    answers_file_path = data_path + 'answers.json'
+    data_access_file_name = data_path + "data_access.json"
 
-    def get_questions(self):
-        question_dict = {}
-        with open(self.questions_file_path, 'r') as questions_file:
-            questions_as_json = json.load(questions_file)
-            for question in questions_as_json:
-                question_dict[question['id']] = question['text']
-        return question_dict
-
-    def get_answers(self, verbal_time):
-        answers_dict = {}
-        with open(self.answers_file_path, 'r') as answers_file:
-            all_answers_as_json = json.load(answers_file)
-            for answer_group in all_answers_as_json:
-                if answer_group['id'] == verbal_time:
-                    for answer in answer_group['answers']:
-                        answers_dict[answer['id']] = answer['text']
+    def get_requested_filename(self, simple_filename: str):
+        answer = ''
+        with open(self.data_access_file_name, 'r') as file:
+            file_as_json = json.load(file)
+            names_map = file_as_json[0]
+            for name in names_map:
+                if name == simple_filename:
+                    answer = self.data_path + names_map[name]
                     break
-        return answers_dict
+        return answer
+
+    def get_data(self, simple_filename: str):
+        filename = self.get_requested_filename(simple_filename)
+        data_map = ''
+        with open(filename, 'r') as file:
+            file_as_json = json.load(file)
+            data_map = file_as_json[1]['entries']
+        return data_map

@@ -3,10 +3,11 @@ from kivymd.uix.card import MDCard
 from kivy.uix.screenmanager import ScreenManager
 from kivy.lang import Builder
 
-from googletransBot import GoogletransBot
 import datetime
 from examiner import Examiner
 from enum import Enum
+
+from oxfordDictionary import OxfordDictionary
 
 class ConversationStatus(Enum):
     NORMAL = 0
@@ -14,7 +15,7 @@ class ConversationStatus(Enum):
     IN_GAME = 2
 
 class Ui(ScreenManager):
-    transBot = GoogletransBot()
+    dictionaryBot = OxfordDictionary()
     examiner = Examiner()
     status = ConversationStatus.NORMAL
 
@@ -46,7 +47,7 @@ class Ui(ScreenManager):
             if self.status == ConversationStatus.IN_GAME:
                 self.play_question(msg)
             else:
-                translation = self.transBot.translate_text(msg)
+                translation = self.dictionaryBot.get_main_definition(msg)['main_definition']
                 self.add_bot_msg(translation)
 
     def isItACommand(self, msg):

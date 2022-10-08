@@ -1,9 +1,9 @@
 from random import randint
 
-from dataPersistenceManager import PersistenceManager
+from triviaPersistenceManager import TriviaPersistenceManager
 
 class Examiner:
-    data_manager = PersistenceManager()
+    data_manager = TriviaPersistenceManager()
     questions = {}
     questions_order = []
     questions_amount = 0

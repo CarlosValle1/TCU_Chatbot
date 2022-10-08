@@ -1,0 +1,22 @@
+[
+    {
+        "document_name": "dictionaries.json",
+        "last_modified": "4/10/2022"
+    },
+    {
+        "entries": [
+            {
+                "sort_name": "oxford",
+                "full_name": "Oxford English Dictionary",
+                "daily_available_querys": "1000",
+                "todays_querys_amount": "0" 
+            },
+            {
+                "sort_name": "merriam_webster",
+                "full_name": "Dictionary by Merriam-Webster",
+                "daily_available_querys": "1000",
+                "todays_querys_amount": "0" 
+            }
+        ]
+    }
+]

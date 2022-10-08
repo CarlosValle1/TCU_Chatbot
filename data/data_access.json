@@ -1,0 +1,8 @@
+[
+    {
+        "questions": "questions.json",
+        "answers": "answers.json",
+        "dictionaries": "dictionaries.json" 
+
+    }
+]
