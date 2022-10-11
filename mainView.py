@@ -47,8 +47,16 @@ class Ui(ScreenManager):
             if self.status == ConversationStatus.IN_GAME:
                 self.play_question(msg)
             else:
-                translation = self.dictionaryBot.get_main_definition(msg)['main_definition']
-                self.add_bot_msg(translation)
+                main_definition = self.dictionaryBot.get_main_definition(msg)['main_definition']
+                self.add_bot_msg('Main definition: ' + main_definition)
+                main_example = self.dictionaryBot.get_main_example(msg)['main_example']
+                if main_example != 'no_example':
+                    self.add_bot_msg('Main example: ' + main_example)
+                sencodary_data = self.dictionaryBot.get_secondary_definitions_and_examples(msg)
+                for i in range(0, len(sencodary_data['definitions'])):
+                    self.add_bot_msg('Secondary definition: ' + sencodary_data['definitions'][i])
+                    if sencodary_data['examples'][i] != 'no_example':
+                        self.add_bot_msg('Secondary example: ' + sencodary_data['examples'][i])
 
     def isItACommand(self, msg):
         answer = False

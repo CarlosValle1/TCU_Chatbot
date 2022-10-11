@@ -26,7 +26,7 @@ class OxfordDictionary():
         if 'example' in senses[0]:
             self.filtered_dictionary['main_example'] = senses[0]['examples'][0]['text']
         else:
-            self.filtered_dictionary['main_example'] = ''
+            self.filtered_dictionary['main_example'] = 'no_example'
 
         self.filtered_dictionary['secondary_data'] = {}
         if 'subsenses' in senses[0]:
