@@ -126,22 +126,25 @@ class Ui(ScreenManager):
             self.add_bot_msg('The game is over! You got ' + str(self.examiner.get_points()) + ' points.')
             self.status = ConversationStatus.NORMAL
 
-    def define_word(self, msg):
-        if 'error' in self.dictionaryBot.get_main_definition(msg):
-            self.add_bot_msg(self.dictionaryBot.get_main_definition(msg)['error'])
+    def define_word(self, msg:str):
+        data_dictionary = self.dictionaryBot.get_full_data(msg)
+        if 'error' in data_dictionary:
+            self.add_bot_msg(data_dictionary['error'])
         else:
-            main_definition = self.dictionaryBot.get_main_definition(msg)['main_definition']
             self.add_bot_msg('MAIN DEFINITION:')
-            self.add_bot_msg(main_definition)
-            main_example = self.dictionaryBot.get_main_example(msg)['main_example']
-            if main_example != 'no_example':
-                self.add_bot_msg('Main example: ' + main_example)
-            secondary_data = self.dictionaryBot.get_secondary_definitions_and_examples(msg)
-            if 'definitions' in secondary_data:
-                for i in range(0, len(secondary_data['definitions'])):
-                    self.add_bot_msg('Secondary definition: ' + secondary_data['definitions'][i])
-                    if secondary_data['examples'][i] != 'no_example':
-                        self.add_bot_msg('Secondary example: ' + secondary_data['examples'][i])
+            self.add_bot_msg(data_dictionary['main_definition'].capitalize())
+            if data_dictionary['main_example'] != 'no_example':
+                self.add_bot_msg('Example: ' + data_dictionary['main_example'].capitalize())
+            secondary_data_dictionary = data_dictionary['secondary_data']
+            if 'definitions' in secondary_data_dictionary:
+                total_secundary_definitions = len(secondary_data_dictionary['definitions'])
+                self.add_bot_msg('SECONDARY DEFINITIONS')
+                for index in range(0, total_secundary_definitions):
+                    self.add_bot_msg(f'{index + 1}. {secondary_data_dictionary["definitions"][index].capitalize()}')
+                    if secondary_data_dictionary['examples'][index] != 'no_example':
+                        self.add_bot_msg(f'Example: {secondary_data_dictionary["examples"][index].capitalize()}')
+
+
             
 class ChatTextCard(MDCard):
     pass

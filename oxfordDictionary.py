@@ -79,3 +79,8 @@ class OxfordDictionary():
         if 'error' in self.filtered_dictionary:
             return { 'error': self.filtered_dictionary['error'] }
         return self.filtered_dictionary['secondary_data']
+
+    def get_full_data(self, word:str):
+        if word != self.last_word_consulted:
+            self.consult_word(word)
+        return self.filtered_dictionary
