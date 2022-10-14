@@ -13,6 +13,8 @@ class OxfordDictionary():
     def query_word(self, word: str):
         url = self.BASE_URL + word.lower()
         response = requests.get(url, headers={'app_id': self.APP_ID, 'app_key': self.APP_KEY})
+        with open('response_test.json', 'w', encoding='utf-8') as f:
+            f.write(response.text)
         response_as_dictionary = json.loads(response.text)
         return response_as_dictionary
 

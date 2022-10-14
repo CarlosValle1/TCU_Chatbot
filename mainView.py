@@ -47,16 +47,7 @@ class Ui(ScreenManager):
             if self.status == ConversationStatus.IN_GAME:
                 self.play_question(msg)
             else:
-                main_definition = self.dictionaryBot.get_main_definition(msg)['main_definition']
-                self.add_bot_msg('Main definition: ' + main_definition)
-                main_example = self.dictionaryBot.get_main_example(msg)['main_example']
-                if main_example != 'no_example':
-                    self.add_bot_msg('Main example: ' + main_example)
-                sencodary_data = self.dictionaryBot.get_secondary_definitions_and_examples(msg)
-                for i in range(0, len(sencodary_data['definitions'])):
-                    self.add_bot_msg('Secondary definition: ' + sencodary_data['definitions'][i])
-                    if sencodary_data['examples'][i] != 'no_example':
-                        self.add_bot_msg('Secondary example: ' + sencodary_data['examples'][i])
+                self.define_word(msg)
 
     def isItACommand(self, msg):
         answer = False
@@ -135,7 +126,23 @@ class Ui(ScreenManager):
             self.add_bot_msg('The game is over! You got ' + str(self.examiner.get_points()) + ' points.')
             self.status = ConversationStatus.NORMAL
 
-
+    def define_word(self, msg):
+        if 'error' in self.dictionaryBot.get_main_definition(msg):
+            print(self.dictionaryBot.get_main_definition(msg)['error'])
+        main_definition = self.dictionaryBot.get_main_definition(msg)['main_definition']
+        self.add_bot_msg('MAIN DEFINITION:')
+        self.add_bot_msg(main_definition)
+        main_example = self.dictionaryBot.get_main_example(msg)['main_example']
+        if main_example != 'no_example':
+            self.add_bot_msg('Main example: ' + main_example)
+        secondary_data = self.dictionaryBot.get_secondary_definitions_and_examples(msg)
+        if 'definitions' in secondary_data:
+            for i in range(0, len(secondary_data['definitions'])):
+                self.add_bot_msg('Secondary definition: ' + secondary_data['definitions'][i])
+                if secondary_data['examples'][i] != 'no_example':
+                    self.add_bot_msg('Secondary example: ' + secondary_data['examples'][i])
+        else:
+            self.add_bot_msg(secondary_data['error'])
 class ChatTextCard(MDCard):
     pass
 
