@@ -65,7 +65,7 @@
 
             # Chat body
             MDBoxLayout:
-                size_hint: 1, .8
+                size_hint: 1, .9
                 orientation: 'vertical'
                 padding: ['10dp', '10dp', '10dp', '10dp']
 
@@ -83,7 +83,7 @@
                         spacing: '10dp'
 
                         UserMsgTextCard:
-                            text: 'Hola mundo!'
+                            text: 'Hola bot!'
                             width: '200dp'
 
                         BotMsgTextCard:
@@ -93,13 +93,15 @@
 
             # Chat footer (user input)
             MDBoxLayout:
-                size_hint: 1, .1
+                size_hint: 1, None
+                height: "50dp"
                 orientation: 'horizontal'
                 padding: '10dp'
 
                 TextInput:
                     id: userInput
-                    size_hint: 1, 1
+                    size_hint: 1, None
+                    height: "40dp"
                     pos_hint: {"x": 0.1}
                     multiline: False
                     on_text_validate: root.user_sent_message_event(self)

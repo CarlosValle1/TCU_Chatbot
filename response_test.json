@@ -1,5 +1,5 @@
 {
-    "id": "house",
+    "id": "control",
     "metadata": {
         "operation": "retrieve",
         "provider": "Oxford University Press",
@@ -7,42 +7,14 @@
     },
     "results": [
         {
-            "id": "house",
+            "id": "control",
             "language": "en-us",
             "lexicalEntries": [
                 {
-                    "derivatives": [
-                        {
-                            "id": "houseful",
-                            "text": "houseful"
-                        },
-                        {
-                            "id": "houseless",
-                            "text": "houseless"
-                        }
-                    ],
                     "entries": [
                         {
                             "etymologies": [
-                                "Old English hūs (noun), hūsian (verb), of Germanic origin; related to Dutch huis, German Haus (nouns), and Dutch huizen, German hausen (verbs)"
-                            ],
-                            "inflections": [
-                                {
-                                    "grammaticalFeatures": [
-                                        {
-                                            "id": "plural",
-                                            "text": "Plural",
-                                            "type": "Number"
-                                        }
-                                    ],
-                                    "inflectedForm": "houses",
-                                    "pronunciations": [
-                                        {
-                                            "phoneticNotation": "respell",
-                                            "phoneticSpelling": "ˈhouziz"
-                                        }
-                                    ]
-                                }
+                                "late Middle English (as a verb in the sense ‘check or verify accounts’, especially by referring to a duplicate register): from Anglo-Norman French contreroller ‘keep a copy of a roll of accounts’, from medieval Latin contrarotulare, from contrarotulus ‘copy of a roll’, from contra- ‘against’ + rotulus ‘a roll’. The noun is perhaps via French contrôle"
                             ],
                             "pronunciations": [
                                 {
@@ -50,755 +22,555 @@
                                         "American English"
                                     ],
                                     "phoneticNotation": "respell",
-                                    "phoneticSpelling": "hous"
+                                    "phoneticSpelling": "kənˈtrōl"
                                 },
                                 {
-                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/house__us_1.mp3",
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/xcontrol__us_1.mp3",
                                     "dialects": [
                                         "American English"
                                     ],
                                     "phoneticNotation": "IPA",
-                                    "phoneticSpelling": "haʊs"
+                                    "phoneticSpelling": "kənˈtroʊl"
                                 }
                             ],
                             "senses": [
                                 {
+                                    "constructions": [
+                                        {
+                                            "text": "under the control of"
+                                        },
+                                        {
+                                            "text": "out of control"
+                                        }
+                                    ],
                                     "definitions": [
-                                        "a building for human habitation, especially one that is lived in by a family or small group of people"
+                                        "the power to influence or direct people's behavior or the course of events"
                                     ],
                                     "examples": [
                                         {
-                                            "text": "my wife and I are moving to a new house"
+                                            "text": "the whole operation is under the control of a production manager"
                                         },
                                         {
+                                            "text": "the situation was slipping out of her control"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0215810.006",
+                                    "semanticClasses": [
+                                        {
+                                            "id": "power",
+                                            "text": "Power"
+                                        }
+                                    ],
+                                    "shortDefinitions": [
+                                        "power to direct"
+                                    ],
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "the ability to manage a machine, vehicle, or other moving object"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he lost control of his car"
+                                                },
+                                                {
+                                                    "text": "improve your ball control"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0215810.008",
+                                            "semanticClasses": [
+                                                {
+                                                    "id": "ability",
+                                                    "text": "Ability"
+                                                }
+                                            ],
+                                            "shortDefinitions": [
+                                                "ability to manage machine, vehicle, or other moving object"
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "the restriction of an activity, tendency, or phenomenon"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "pest control"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0215810.009",
+                                            "semanticClasses": [
+                                                {
+                                                    "id": "suppression",
+                                                    "text": "Suppression"
+                                                }
+                                            ],
+                                            "shortDefinitions": [
+                                                "restriction of activity"
+                                            ],
+                                            "synonyms": [
+                                                {
+                                                    "language": "en",
+                                                    "text": "restraint"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "constraint"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "limitation"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "restriction"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "check"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "curb"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "brake"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "rein"
+                                                }
+                                            ],
+                                            "thesaurusLinks": [
+                                                {
+                                                    "entry_id": "control",
+                                                    "sense_id": "t_en_gb0002976.002"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "the power to restrain something, especially one's own emotions or actions"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "give children time to get control of their emotions"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0215810.010",
+                                            "semanticClasses": [
+                                                {
+                                                    "id": "ability",
+                                                    "text": "Ability"
+                                                }
+                                            ],
+                                            "shortDefinitions": [
+                                                "ability to restrain oneself"
+                                            ],
+                                            "synonyms": [
+                                                {
+                                                    "language": "en",
+                                                    "text": "self-control"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "self-restraint"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "restraint"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "self-command"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "self-mastery"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "self-discipline"
+                                                }
+                                            ],
+                                            "thesaurusLinks": [
+                                                {
+                                                    "entry_id": "control",
+                                                    "sense_id": "t_en_gb0002976.003"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "constructions": [
+                                                {
+                                                    "text": "controls on"
+                                                }
+                                            ],
+                                            "definitions": [
+                                                "a means of limiting or regulating something"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "growing controls on local spending"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0215810.011",
                                             "notes": [
                                                 {
-                                                    "text": "as modifier",
-                                                    "type": "grammaticalNote"
-                                                }
-                                            ],
-                                            "text": "house prices"
-                                        }
-                                    ],
-                                    "id": "m_en_gbus0481790.010",
-                                    "semanticClasses": [
-                                        {
-                                            "id": "housing",
-                                            "text": "Housing"
-                                        }
-                                    ],
-                                    "shortDefinitions": [
-                                        "building for human habitation"
-                                    ],
-                                    "subsenses": [
-                                        {
-                                            "definitions": [
-                                                "the people living in a house; a household"
-                                            ],
-                                            "examples": [
-                                                {
-                                                    "text": "do you want the whole house woken up?"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0481790.013",
-                                            "semanticClasses": [
-                                                {
-                                                    "id": "family",
-                                                    "text": "Family"
-                                                }
-                                            ],
-                                            "shortDefinitions": [
-                                                "people living in house"
-                                            ],
-                                            "synonyms": [
-                                                {
-                                                    "language": "en",
-                                                    "text": "household"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "family"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "family circle"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "ménage"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "clan"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "tribe"
-                                                }
-                                            ],
-                                            "thesaurusLinks": [
-                                                {
-                                                    "entry_id": "house",
-                                                    "sense_id": "t_en_gb0007161.002"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "definitions": [
-                                                "a family or family lineage, especially a noble or royal one; a dynasty"
-                                            ],
-                                            "domainClasses": [
-                                                {
-                                                    "id": "royalty",
-                                                    "text": "Royalty"
-                                                }
-                                            ],
-                                            "examples": [
-                                                {
-                                                    "text": "the power and prestige of the House of Stewart"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0481790.014",
-                                            "semanticClasses": [
-                                                {
-                                                    "id": "family",
-                                                    "text": "Family"
-                                                }
-                                            ],
-                                            "shortDefinitions": [
-                                                "noble family"
-                                            ],
-                                            "synonyms": [
-                                                {
-                                                    "language": "en",
-                                                    "text": "clan"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "kindred"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "family"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "tribe"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "race"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "strain"
-                                                }
-                                            ],
-                                            "thesaurusLinks": [
-                                                {
-                                                    "entry_id": "house",
-                                                    "sense_id": "t_en_gb0007161.003"
-                                                }
-                                            ],
-                                            "variantForms": [
-                                                {
-                                                    "text": "House"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "definitions": [
-                                                "a building in which animals live or in which things are kept"
-                                            ],
-                                            "examples": [
-                                                {
-                                                    "text": "a reptile house"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0481790.017",
-                                            "notes": [
-                                                {
-                                                    "text": "with modifier",
-                                                    "type": "grammaticalNote"
-                                                }
-                                            ],
-                                            "semanticClasses": [
-                                                {
-                                                    "id": "animal_facility",
-                                                    "text": "Animal_Facility"
-                                                }
-                                            ],
-                                            "shortDefinitions": [
-                                                "building where animals live"
-                                            ]
-                                        }
-                                    ],
-                                    "synonyms": [
-                                        {
-                                            "language": "en",
-                                            "text": "home"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "place of residence"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "homestead"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "lodging place"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "a roof over one's head"
-                                        }
-                                    ],
-                                    "thesaurusLinks": [
-                                        {
-                                            "entry_id": "house",
-                                            "sense_id": "t_en_gb0007161.001"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "definitions": [
-                                        "a building in which people meet for a particular activity"
-                                    ],
-                                    "examples": [
-                                        {
-                                            "text": "a house of prayer"
-                                        }
-                                    ],
-                                    "id": "m_en_gbus0481790.019",
-                                    "semanticClasses": [
-                                        {
-                                            "id": "building",
-                                            "text": "Building"
-                                        }
-                                    ],
-                                    "shortDefinitions": [
-                                        "building for particular activity"
-                                    ],
-                                    "subsenses": [
-                                        {
-                                            "definitions": [
-                                                "a business or institution"
-                                            ],
-                                            "examples": [
-                                                {
-                                                    "text": "a publishing house"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0481790.020",
-                                            "semanticClasses": [
-                                                {
-                                                    "id": "business",
-                                                    "text": "Business"
-                                                }
-                                            ],
-                                            "shortDefinitions": [
-                                                "firm or institution"
-                                            ],
-                                            "synonyms": [
-                                                {
-                                                    "language": "en",
-                                                    "text": "firm"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "business"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "company"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "corporation"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "enterprise"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "establishment"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "institution"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "concern"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "organization"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "operation"
-                                                }
-                                            ],
-                                            "thesaurusLinks": [
-                                                {
-                                                    "entry_id": "house",
-                                                    "sense_id": "t_en_gb0007161.004"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "definitions": [
-                                                "a restaurant or inn"
-                                            ],
-                                            "domainClasses": [
-                                                {
-                                                    "id": "restaurants",
-                                                    "text": "Restaurants"
-                                                }
-                                            ],
-                                            "examples": [
-                                                {
-                                                    "notes": [
-                                                        {
-                                                            "text": "as modifier",
-                                                            "type": "grammaticalNote"
-                                                        }
-                                                    ],
-                                                    "text": "I ordered a bottle of their house wine"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0481790.026",
-                                            "semanticClasses": [
-                                                {
-                                                    "id": "restaurant",
-                                                    "text": "Restaurant"
-                                                }
-                                            ],
-                                            "shortDefinitions": [
-                                                "restaurant or inn"
-                                            ],
-                                            "synonyms": [
-                                                {
-                                                    "language": "en",
-                                                    "text": "inn"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "bar"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "tavern"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "hostelry"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "taproom"
-                                                }
-                                            ],
-                                            "thesaurusLinks": [
-                                                {
-                                                    "entry_id": "house",
-                                                    "sense_id": "t_en_gb0007161.007"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "definitions": [
-                                                "a brothel."
-                                            ],
-                                            "domainClasses": [
-                                                {
-                                                    "id": "sex",
-                                                    "text": "Sex"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0481790.029",
-                                            "registers": [
-                                                {
-                                                    "id": "dated",
-                                                    "text": "Dated"
-                                                }
-                                            ],
-                                            "semanticClasses": [
-                                                {
-                                                    "id": "brothel",
-                                                    "text": "Brothel"
-                                                }
-                                            ],
-                                            "shortDefinitions": [
-                                                "brothel"
-                                            ],
-                                            "synonyms": [
-                                                {
-                                                    "language": "en",
-                                                    "text": "bordello"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "house of ill repute"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "house of prostitution"
-                                                }
-                                            ],
-                                            "thesaurusLinks": [
-                                                {
-                                                    "entry_id": "brothel",
-                                                    "sense_id": "t_en_gb0001791.001"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "definitions": [
-                                                "a theater"
-                                            ],
-                                            "domainClasses": [
-                                                {
-                                                    "id": "theatre",
-                                                    "text": "Theatre"
-                                                }
-                                            ],
-                                            "examples": [
-                                                {
-                                                    "text": "a hundred musicians performed in front of a full house"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0481790.030",
-                                            "semanticClasses": [
-                                                {
-                                                    "id": "theatre",
-                                                    "text": "Theatre"
-                                                }
-                                            ],
-                                            "shortDefinitions": [
-                                                "theatre"
-                                            ],
-                                            "synonyms": [
-                                                {
-                                                    "language": "en",
-                                                    "text": "audience"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "crowd"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "those present"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "listeners"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "spectators"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "viewers"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "gathering"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "assembly"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "assemblage"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "congregation"
-                                                }
-                                            ],
-                                            "thesaurusLinks": [
-                                                {
-                                                    "entry_id": "house",
-                                                    "sense_id": "t_en_gb0007161.006"
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    "definitions": [
-                                        "a religious community that occupies a particular building"
-                                    ],
-                                    "domainClasses": [
-                                        {
-                                            "id": "religion",
-                                            "text": "Religion"
-                                        }
-                                    ],
-                                    "examples": [
-                                        {
-                                            "text": "the Cistercian house at Clairvaux"
-                                        }
-                                    ],
-                                    "id": "m_en_gbus0481790.033",
-                                    "semanticClasses": [
-                                        {
-                                            "id": "religious_group",
-                                            "text": "Religious_Group"
-                                        }
-                                    ],
-                                    "shortDefinitions": [
-                                        "religious community"
-                                    ],
-                                    "subsenses": [
-                                        {
-                                            "definitions": [
-                                                "a residential hall at a school or college"
-                                            ],
-                                            "domainClasses": [
-                                                {
-                                                    "id": "education",
-                                                    "text": "Education"
-                                                }
-                                            ],
-                                            "examples": [
-                                                {
-                                                    "text": "a house of 45 boarders"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0481790.034",
-                                            "semanticClasses": [
-                                                {
-                                                    "id": "residential_facility",
-                                                    "text": "Residential_Facility"
-                                                }
-                                            ],
-                                            "shortDefinitions": [
-                                                "residential building at boarding school"
-                                            ]
-                                        },
-                                        {
-                                            "definitions": [
-                                                "a college of a university."
-                                            ],
-                                            "domainClasses": [
-                                                {
-                                                    "id": "university",
-                                                    "text": "University"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0481790.036",
-                                            "regions": [
-                                                {
-                                                    "id": "british",
-                                                    "text": "British"
-                                                }
-                                            ],
-                                            "registers": [
-                                                {
-                                                    "id": "formal",
-                                                    "text": "Formal"
-                                                }
-                                            ],
-                                            "semanticClasses": [
-                                                {
-                                                    "id": "school",
-                                                    "text": "School"
-                                                }
-                                            ],
-                                            "shortDefinitions": [
-                                                "university college"
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    "definitions": [
-                                        "a legislative or deliberative assembly"
-                                    ],
-                                    "domainClasses": [
-                                        {
-                                            "id": "parliament",
-                                            "text": "Parliament"
-                                        }
-                                    ],
-                                    "examples": [
-                                        {
-                                            "text": "the sixty-member National Council, the country's upper house"
-                                        }
-                                    ],
-                                    "id": "m_en_gbus0481790.041",
-                                    "semanticClasses": [
-                                        {
-                                            "id": "legislature",
-                                            "text": "Legislature"
-                                        }
-                                    ],
-                                    "shortDefinitions": [
-                                        "legislative or deliberative assembly"
-                                    ],
-                                    "subsenses": [
-                                        {
-                                            "definitions": [
-                                                "the House of Representatives or (in the UK or Canada) the House of Commons or Lords"
-                                            ],
-                                            "domainClasses": [
-                                                {
-                                                    "id": "parliament",
-                                                    "text": "Parliament"
-                                                }
-                                            ],
-                                            "examples": [
-                                                {
-                                                    "text": "the government commanded an overall majority in the House"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0481790.042",
-                                            "notes": [
-                                                {
-                                                    "text": "\"the House\"",
+                                                    "text": "often \"controls\"",
                                                     "type": "wordFormNote"
                                                 }
                                             ],
                                             "semanticClasses": [
                                                 {
-                                                    "id": "legislature",
-                                                    "text": "Legislature"
+                                                    "id": "action",
+                                                    "text": "Action"
                                                 }
                                             ],
                                             "shortDefinitions": [
-                                                "House of Commons or Lords"
+                                                "means of limiting"
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a switch or other device by which a machine is regulated"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the volume control"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0215810.014",
+                                            "semanticClasses": [
+                                                {
+                                                    "id": "control",
+                                                    "text": "Control"
+                                                }
+                                            ],
+                                            "shortDefinitions": [
+                                                "switch on machine"
+                                            ],
+                                            "synonyms": [
+                                                {
+                                                    "language": "en",
+                                                    "text": "switch"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "knob"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "button"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "dial"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "handle"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "lever"
+                                                }
+                                            ],
+                                            "thesaurusLinks": [
+                                                {
+                                                    "entry_id": "control",
+                                                    "sense_id": "t_en_gb0002976.004"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "the place where a particular item is verified"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "passport control"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0215810.015",
+                                            "semanticClasses": [
+                                                {
+                                                    "id": "facility",
+                                                    "text": "Facility"
+                                                }
+                                            ],
+                                            "shortDefinitions": [
+                                                "place from which system is directed"
+                                            ],
+                                            "synonyms": [
+                                                {
+                                                    "language": "en",
+                                                    "text": "headquarters"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "HQ"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "base"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "centre of operations"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "command post"
+                                                }
+                                            ],
+                                            "thesaurusLinks": [
+                                                {
+                                                    "entry_id": "control",
+                                                    "sense_id": "t_en_gb0002976.005"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "the base from which a system or activity is directed"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "communications could be established with central control"
+                                                },
+                                                {
+                                                    "text": "mission control"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0215810.016",
+                                            "semanticClasses": [
+                                                {
+                                                    "id": "facility",
+                                                    "text": "Facility"
+                                                }
+                                            ],
+                                            "shortDefinitions": [
+                                                "base from which system or activity is directed"
+                                            ]
+                                        },
+                                        {
+                                            "crossReferenceMarkers": [
+                                                "short for control key"
+                                            ],
+                                            "crossReferences": [
+                                                {
+                                                    "id": "control_key",
+                                                    "text": "control key",
+                                                    "type": "abbreviation of"
+                                                }
+                                            ],
+                                            "domainClasses": [
+                                                {
+                                                    "id": "computing",
+                                                    "text": "Computing"
+                                                }
+                                            ],
+                                            "domains": [
+                                                {
+                                                    "id": "computing",
+                                                    "text": "Computing"
+                                                }
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "note that Control plus various keys on the numeric keypad will move you around the text"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0215810.017",
+                                            "shortDefinitions": [
+                                                "control key"
                                             ]
                                         }
                                     ],
                                     "synonyms": [
                                         {
                                             "language": "en",
-                                            "text": "legislative assembly"
+                                            "text": "jurisdiction"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "legislative body"
+                                            "text": "sway"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "chamber"
+                                            "text": "power"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "council"
+                                            "text": "authority"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "parliament"
+                                            "text": "command"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "diet"
+                                            "text": "dominance"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "congress"
+                                            "text": "domination"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "senate"
+                                            "text": "government"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "mastery"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "leadership"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "rule"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "reign"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "sovereignty"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "supremacy"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "ascendancy"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "predominance"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "hegemony"
                                         }
                                     ],
                                     "thesaurusLinks": [
                                         {
-                                            "entry_id": "house",
-                                            "sense_id": "t_en_gb0007161.005"
+                                            "entry_id": "control",
+                                            "sense_id": "t_en_gb0002976.001"
                                         }
                                     ]
                                 },
                                 {
                                     "definitions": [
-                                        "a style of popular dance music typically using synthesized drum and bass lines, sparse repetitive vocals, and a fast beat"
+                                        "a group or individual used as a standard of comparison for checking the results of a survey or experiment"
                                     ],
                                     "domainClasses": [
                                         {
-                                            "id": "popular_music",
-                                            "text": "Popular_Music"
+                                            "id": "statistics",
+                                            "text": "Statistics"
                                         }
                                     ],
                                     "examples": [
                                         {
-                                            "text": "DJs specializing in techno, garage, and house"
+                                            "text": "they saw no difference between the cancer patients and the controls"
                                         }
                                     ],
-                                    "id": "m_en_gbus0481790.046",
+                                    "id": "m_en_gbus0215810.019",
                                     "semanticClasses": [
                                         {
-                                            "id": "music",
-                                            "text": "Music"
+                                            "id": "reference_standard",
+                                            "text": "Reference_Standard"
                                         }
                                     ],
                                     "shortDefinitions": [
-                                        "dance music"
+                                        "standard of comparison"
                                     ],
-                                    "variantForms": [
+                                    "synonyms": [
                                         {
-                                            "text": "house music"
+                                            "language": "en",
+                                            "text": "standard of comparison"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "benchmark"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "standard"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "check"
+                                        }
+                                    ],
+                                    "thesaurusLinks": [
+                                        {
+                                            "entry_id": "control",
+                                            "sense_id": "t_en_gb0002976.006"
                                         }
                                     ]
                                 },
                                 {
                                     "definitions": [
-                                        "any of the twelve divisions of the celestial sphere, based on the positions of the ascendant and midheaven at a given time and place, and determined by any of a number of methods."
+                                        "a member of an intelligence organization who personally directs the activities of a spy"
                                     ],
                                     "domainClasses": [
                                         {
-                                            "id": "astrology",
-                                            "text": "Astrology"
+                                            "id": "intelligence",
+                                            "text": "Intelligence"
+                                        }
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he sat with his KGB control as the details of his new assignment were explained"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0215810.021",
+                                    "semanticClasses": [
+                                        {
+                                            "id": "spy",
+                                            "text": "Spy"
+                                        }
+                                    ],
+                                    "shortDefinitions": [
+                                        "person directing spy"
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a high card that will prevent the opponents from establishing a particular suit"
+                                    ],
+                                    "domainClasses": [
+                                        {
+                                            "id": "bridge",
+                                            "text": "Bridge"
                                         }
                                     ],
                                     "domains": [
                                         {
-                                            "id": "astrology",
-                                            "text": "Astrology"
+                                            "id": "bridge",
+                                            "text": "Bridge"
                                         }
                                     ],
-                                    "id": "m_en_gbus0481790.049",
+                                    "examples": [
+                                        {
+                                            "text": "he has controls in both minor suits"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0215810.023",
                                     "semanticClasses": [
                                         {
-                                            "id": "star_group",
-                                            "text": "Star_Group"
+                                            "id": "playing_card",
+                                            "text": "Playing_Card"
                                         }
                                     ],
                                     "shortDefinitions": [
-                                        "twelfth division of celestial sphere"
-                                    ],
-                                    "subsenses": [
-                                        {
-                                            "definitions": [
-                                                "a celestial division represented as a sector on an astrological chart, used in allocating elements of character and circumstance to different spheres of human life."
-                                            ],
-                                            "domainClasses": [
-                                                {
-                                                    "id": "astrology",
-                                                    "text": "Astrology"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0481790.050",
-                                            "semanticClasses": [
-                                                {
-                                                    "id": "star_group",
-                                                    "text": "Star_Group"
-                                                }
-                                            ],
-                                            "shortDefinitions": [
-                                                "sector on astrological chart"
-                                            ]
-                                        }
+                                        "high card"
                                     ]
                                 }
                             ]
@@ -811,61 +583,32 @@
                     },
                     "phrases": [
                         {
-                            "id": "a_house_divided_cannot_stand",
-                            "text": "a house divided cannot stand"
+                            "id": "in_control",
+                            "text": "in control"
                         },
                         {
-                            "id": "house_and_home",
-                            "text": "house and home"
+                            "id": "out_of_control",
+                            "text": "out of control"
                         },
                         {
-                            "id": "house_of_cards",
-                            "text": "house of cards"
-                        },
-                        {
-                            "id": "keep_house",
-                            "text": "keep house"
-                        },
-                        {
-                            "id": "like_a_house_on_fire",
-                            "text": "like a house on fire"
-                        },
-                        {
-                            "id": "on_the_house",
-                            "text": "on the house"
-                        },
-                        {
-                            "id": "play_house",
-                            "text": "play house"
-                        },
-                        {
-                            "id": "put_one%27s_house_in_order",
-                            "text": "put one's house in order"
-                        },
-                        {
-                            "id": "set_up_house",
-                            "text": "set up house"
+                            "id": "under_control",
+                            "text": "under control"
                         }
                     ],
-                    "text": "house"
+                    "text": "control"
                 },
                 {
-                    "derivatives": [
-                        {
-                            "id": "houseful",
-                            "text": "houseful"
-                        },
-                        {
-                            "id": "houseless",
-                            "text": "houseless"
-                        }
-                    ],
                     "entries": [
                         {
-                            "notes": [
+                            "inflections": [
                                 {
-                                    "text": "attributive",
-                                    "type": "grammaticalNote"
+                                    "inflectedForm": "controls"
+                                },
+                                {
+                                    "inflectedForm": "controlling"
+                                },
+                                {
+                                    "inflectedForm": "controlled"
                                 }
                             ],
                             "pronunciations": [
@@ -874,278 +617,377 @@
                                         "American English"
                                     ],
                                     "phoneticNotation": "respell",
-                                    "phoneticSpelling": "hous"
+                                    "phoneticSpelling": "kənˈtrōl"
                                 },
                                 {
-                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/house__us_1.mp3",
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/xcontrol__us_1.mp3",
                                     "dialects": [
                                         "American English"
                                     ],
                                     "phoneticNotation": "IPA",
-                                    "phoneticSpelling": "haʊs"
+                                    "phoneticSpelling": "kənˈtroʊl"
                                 }
                             ],
                             "senses": [
                                 {
                                     "definitions": [
-                                        "(of an animal or plant) kept in, frequenting, or infesting buildings."
-                                    ],
-                                    "id": "m_en_gbus0481790.060",
-                                    "shortDefinitions": [
-                                        "kept in or frequenting buildings"
-                                    ]
-                                },
-                                {
-                                    "definitions": [
-                                        "relating to a business, institution, or society"
+                                        "determine the behavior or supervise the running of"
                                     ],
                                     "examples": [
                                         {
-                                            "text": "a house journal"
+                                            "text": "he was appointed to control the company's marketing strategy"
                                         }
                                     ],
-                                    "id": "m_en_gbus0481790.063",
+                                    "id": "m_en_gbus0215810.028",
+                                    "notes": [
+                                        {
+                                            "text": "with object",
+                                            "type": "grammaticalNote"
+                                        }
+                                    ],
                                     "shortDefinitions": [
-                                        "relating to firm or institution"
+                                        "direct and supervise"
                                     ],
                                     "subsenses": [
                                         {
                                             "definitions": [
-                                                "(of a band or group) resident or regularly performing in a club or other venue"
+                                                "maintain influence or authority over"
                                             ],
                                             "examples": [
                                                 {
-                                                    "text": "the house band"
+                                                    "text": "you shouldn't have dogs if you can't control them"
                                                 }
                                             ],
-                                            "id": "m_en_gbus0481790.064",
+                                            "id": "m_en_gbus0215810.034",
                                             "shortDefinitions": [
-                                                "(of band) resident at venue"
+                                                "maintain authority"
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "limit the level, intensity, or numbers of"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he had to control his temper"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0215810.035",
+                                            "shortDefinitions": [
+                                                "limit"
+                                            ],
+                                            "synonyms": [
+                                                {
+                                                    "language": "en",
+                                                    "text": "restrain"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "keep in check"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "curb"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "check"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "contain"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "hold back"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "bridle"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "rein in"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "keep a tight rein on"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "subdue"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "suppress"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "repress"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "master"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "damp down"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "limit"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "restrict"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "impose limits on"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "set limits on"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "curb"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "cap"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "constrain"
+                                                }
+                                            ],
+                                            "thesaurusLinks": [
+                                                {
+                                                    "entry_id": "control",
+                                                    "sense_id": "t_en_gb0002976.008"
+                                                },
+                                                {
+                                                    "entry_id": "control",
+                                                    "sense_id": "t_en_gb0002976.009"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "remain calm and reasonable despite provocation"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he made an effort to control himself"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0215810.036",
+                                            "notes": [
+                                                {
+                                                    "text": "\"control oneself\"",
+                                                    "type": "wordFormNote"
+                                                }
+                                            ],
+                                            "shortDefinitions": [
+                                                "remain calm"
+                                            ],
+                                            "synonyms": [
+                                                {
+                                                    "language": "en",
+                                                    "text": "compose oneself"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "recover one's composure"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "regain one's composure"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "control oneself"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "recover one's self-control"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "regain one's self-control"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "pull oneself together"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "keep one's head"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "simmer down"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "cool down"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "cool off"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "take it easy"
+                                                }
+                                            ],
+                                            "thesaurusLinks": [
+                                                {
+                                                    "entry_id": "calm",
+                                                    "sense_id": "t_en_gb0001970.007"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "regulate (a mechanical or scientific process)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the airflow is controlled by a fan"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0215810.037",
+                                            "shortDefinitions": [
+                                                "regulate process"
+                                            ],
+                                            "synonyms": [
+                                                {
+                                                    "language": "en",
+                                                    "text": "regulate"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "modulate"
+                                                },
+                                                {
+                                                    "language": "en",
+                                                    "text": "adjust"
+                                                }
+                                            ],
+                                            "thesaurusLinks": [
+                                                {
+                                                    "entry_id": "control",
+                                                    "sense_id": "t_en_gb0002976.010"
+                                                }
                                             ]
                                         }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "language": "en-us",
-                    "lexicalCategory": {
-                        "id": "adjective",
-                        "text": "Adjective"
-                    },
-                    "phrases": [
-                        {
-                            "id": "a_house_divided_cannot_stand",
-                            "text": "a house divided cannot stand"
-                        },
-                        {
-                            "id": "house_and_home",
-                            "text": "house and home"
-                        },
-                        {
-                            "id": "house_of_cards",
-                            "text": "house of cards"
-                        },
-                        {
-                            "id": "keep_house",
-                            "text": "keep house"
-                        },
-                        {
-                            "id": "like_a_house_on_fire",
-                            "text": "like a house on fire"
-                        },
-                        {
-                            "id": "on_the_house",
-                            "text": "on the house"
-                        },
-                        {
-                            "id": "play_house",
-                            "text": "play house"
-                        },
-                        {
-                            "id": "put_one%27s_house_in_order",
-                            "text": "put one's house in order"
-                        },
-                        {
-                            "id": "set_up_house",
-                            "text": "set up house"
-                        }
-                    ],
-                    "text": "house"
-                },
-                {
-                    "derivatives": [
-                        {
-                            "id": "houseful",
-                            "text": "houseful"
-                        },
-                        {
-                            "id": "houseless",
-                            "text": "houseless"
-                        }
-                    ],
-                    "entries": [
-                        {
-                            "grammaticalFeatures": [
-                                {
-                                    "id": "transitive",
-                                    "text": "Transitive",
-                                    "type": "Subcategorization"
-                                }
-                            ],
-                            "pronunciations": [
-                                {
-                                    "dialects": [
-                                        "American English"
-                                    ],
-                                    "phoneticNotation": "respell",
-                                    "phoneticSpelling": "houz"
-                                },
-                                {
-                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/house__us_2.mp3",
-                                    "dialects": [
-                                        "American English"
-                                    ],
-                                    "phoneticNotation": "IPA",
-                                    "phoneticSpelling": "haʊz"
-                                }
-                            ],
-                            "senses": [
-                                {
-                                    "definitions": [
-                                        "provide (a person or animal) with shelter or living quarters"
-                                    ],
-                                    "examples": [
-                                        {
-                                            "text": "we make exceptions to these rules if we need to house someone urgently"
-                                        }
-                                    ],
-                                    "id": "m_en_gbus0481790.074",
-                                    "shortDefinitions": [
-                                        "provide with shelter or accommodation"
                                     ],
                                     "synonyms": [
                                         {
                                             "language": "en",
-                                            "text": "accommodate"
+                                            "text": "be in charge of"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "provide accommodation for"
+                                            "text": "run"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "provide with accommodation"
+                                            "text": "be in control of"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "give accommodation to"
+                                            "text": "manage"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "make space for"
+                                            "text": "direct"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "make room for"
+                                            "text": "administer"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "give someone a roof over their head"
+                                            "text": "head"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "provide a roof over someone's head"
+                                            "text": "preside over"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "provide with a place to work"
+                                            "text": "have authority over"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "harbour"
+                                            "text": "supervise"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "superintend"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "oversee"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "guide"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "steer"
                                         }
                                     ],
                                     "thesaurusLinks": [
                                         {
-                                            "entry_id": "house",
-                                            "sense_id": "t_en_gb0007161.009"
+                                            "entry_id": "control",
+                                            "sense_id": "t_en_gb0002976.007"
                                         }
                                     ]
                                 },
                                 {
                                     "definitions": [
-                                        "provide space for; accommodate"
+                                        "take into account (an extraneous factor that might affect results) when performing an experiment"
+                                    ],
+                                    "domainClasses": [
+                                        {
+                                            "id": "statistics",
+                                            "text": "Statistics"
+                                        }
                                     ],
                                     "examples": [
                                         {
-                                            "text": "the museum houses a collection of Roman sculpture"
+                                            "text": "no attempt was made to control for variations"
                                         }
                                     ],
-                                    "id": "m_en_gbus0481790.081",
+                                    "id": "m_en_gbus0215810.041",
+                                    "notes": [
+                                        {
+                                            "text": "no object",
+                                            "type": "grammaticalNote"
+                                        },
+                                        {
+                                            "text": "\"control for\"",
+                                            "type": "wordFormNote"
+                                        }
+                                    ],
                                     "shortDefinitions": [
-                                        "provide space for"
+                                        "take factor into account"
                                     ],
                                     "subsenses": [
                                         {
                                             "definitions": [
-                                                "insert or fix (something) in a socket or mortise."
+                                                "check; verify."
                                             ],
-                                            "id": "m_en_gbus0481790.083",
+                                            "id": "m_en_gbus0215810.042",
                                             "shortDefinitions": [
-                                                "fix in socket or mortise"
+                                                "check"
                                             ]
                                         }
-                                    ],
-                                    "synonyms": [
-                                        {
-                                            "language": "en",
-                                            "text": "contain"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "hold"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "store"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "cover"
-                                        }
-                                    ],
-                                    "thesaurusLinks": [
-                                        {
-                                            "entry_id": "house",
-                                            "sense_id": "t_en_gb0007161.010"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "definitions": [
-                                        "eat the whole of (something), typically very quickly"
-                                    ],
-                                    "examples": [
-                                        {
-                                            "text": "it could be that I just housed a massive burrito, but I don't feel good"
-                                        }
-                                    ],
-                                    "id": "m_en_gbus0481790.253",
-                                    "regions": [
-                                        {
-                                            "id": "north_american",
-                                            "text": "North_American"
-                                        }
-                                    ],
-                                    "registers": [
-                                        {
-                                            "id": "informal",
-                                            "text": "Informal"
-                                        }
-                                    ],
-                                    "shortDefinitions": [
-                                        "eat whole of"
                                     ]
                                 }
                             ]
@@ -1158,48 +1000,24 @@
                     },
                     "phrases": [
                         {
-                            "id": "a_house_divided_cannot_stand",
-                            "text": "a house divided cannot stand"
+                            "id": "in_control",
+                            "text": "in control"
                         },
                         {
-                            "id": "house_and_home",
-                            "text": "house and home"
+                            "id": "out_of_control",
+                            "text": "out of control"
                         },
                         {
-                            "id": "house_of_cards",
-                            "text": "house of cards"
-                        },
-                        {
-                            "id": "keep_house",
-                            "text": "keep house"
-                        },
-                        {
-                            "id": "like_a_house_on_fire",
-                            "text": "like a house on fire"
-                        },
-                        {
-                            "id": "on_the_house",
-                            "text": "on the house"
-                        },
-                        {
-                            "id": "play_house",
-                            "text": "play house"
-                        },
-                        {
-                            "id": "put_one%27s_house_in_order",
-                            "text": "put one's house in order"
-                        },
-                        {
-                            "id": "set_up_house",
-                            "text": "set up house"
+                            "id": "under_control",
+                            "text": "under control"
                         }
                     ],
-                    "text": "house"
+                    "text": "control"
                 }
             ],
             "type": "headword",
-            "word": "house"
+            "word": "control"
         }
     ],
-    "word": "house"
+    "word": "control"
 }
