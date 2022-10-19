@@ -1,7 +1,10 @@
+import math
 from kivymd.app import MDApp
 from kivymd.uix.card import MDCard
 from kivy.uix.screenmanager import ScreenManager
 from kivy.lang import Builder
+import kivy.metrics
+from kivy.core.window import Window
 
 import datetime
 from examiner import Examiner
@@ -19,18 +22,37 @@ class Ui(ScreenManager):
     examiner = Examiner()
     status = ConversationStatus.NORMAL
 
+    def get_proper_card_len_info(self, msg):
+        width_px = Window.size[0]
+        width_px_max = width_px * 0.8
+        estimated_msg_len_dp = len(msg) * 11 + 50
+        estimated_mes_len_px = kivy.metrics.dp(estimated_msg_len_dp)
+        final_size = estimated_msg_len_dp
+        unit = 'dp'
+        height_overflow = estimated_mes_len_px / width_px_max
+        if height_overflow > 1:
+            final_size = width_px_max
+            unit = 'dp'
+        return {'final_size': final_size, 'unit': unit, 'height_overflow': height_overflow}
+
     def add_bot_msg(self, msg):
         currentime = datetime.datetime.now()
         time = currentime.strftime('%H:%M')
         msg = msg.strip()
-        new_card = BotMsgTextCard(text = msg, textAlign = 'left', dateTime = time, width = str(f'{len(msg) * 11 + 50}dp'))
+        proper_card_len = self.get_proper_card_len_info(msg)
+        new_card = BotMsgTextCard(text = msg, textAlign = 'left', dateTime = time,
+         width = str(f'{proper_card_len["final_size"]}{proper_card_len["unit"]}'), 
+         height = f'{30 * math.ceil(proper_card_len["height_overflow"])}dp')
         self.ids.chatCanvas.add_widget(new_card)
     
     def add_user_msg(self, msg):
         currentime = datetime.datetime.now()
         time = currentime.strftime('%H:%M')
         msg = msg.strip()
-        new_card = UserMsgTextCard(text = msg, textAlign = 'right', dateTime = time, width = str(f'{len(msg) * 11 + 50}dp'))
+        proper_card_len = self.get_proper_card_len_info(msg)
+        new_card = UserMsgTextCard(text = msg, textAlign = 'right', dateTime = time,
+         width = str(f'{proper_card_len["final_size"]}{proper_card_len["unit"]}'), 
+         height = f'{30 * math.ceil(proper_card_len["height_overflow"])}dp')
         self.ids.chatCanvas.add_widget(new_card)
 
     def user_sent_message_event(self, widget):
