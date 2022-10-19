@@ -23,14 +23,14 @@ class Ui(ScreenManager):
         currentime = datetime.datetime.now()
         time = currentime.strftime('%H:%M')
         msg = msg.strip()
-        new_card = BotMsgTextCard(text = msg, dateTime = time)
+        new_card = BotMsgTextCard(text = msg, textAlign = 'left', dateTime = time, width = str(f'{len(msg) * 11 + 50}dp'))
         self.ids.chatCanvas.add_widget(new_card)
     
     def add_user_msg(self, msg):
         currentime = datetime.datetime.now()
         time = currentime.strftime('%H:%M')
         msg = msg.strip()
-        new_card = UserMsgTextCard(text = msg, dateTime = time)
+        new_card = UserMsgTextCard(text = msg, textAlign = 'right', dateTime = time, width = str(f'{len(msg) * 11 + 50}dp'))
         self.ids.chatCanvas.add_widget(new_card)
 
     def user_sent_message_event(self, widget):

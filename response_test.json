@@ -1,5 +1,5 @@
 {
-    "id": "fury",
+    "id": "hello",
     "metadata": {
         "operation": "retrieve",
         "provider": "Oxford University Press",
@@ -7,15 +7,139 @@
     },
     "results": [
         {
-            "id": "fury",
+            "id": "hello",
             "language": "en-us",
             "lexicalEntries": [
                 {
                     "entries": [
                         {
                             "etymologies": [
-                                "late Middle English: from Old French furie, from Latin furia, from furiosus ‘furious’, from furere ‘be mad, rage’"
+                                "early 19th century: variant of earlier hollo; related to holla"
                             ],
+                            "pronunciations": [
+                                {
+                                    "dialects": [
+                                        "American English"
+                                    ],
+                                    "phoneticNotation": "respell",
+                                    "phoneticSpelling": "həˈlō"
+                                },
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/hello__us_1_rr.mp3",
+                                    "dialects": [
+                                        "American English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "həˈloʊ"
+                                },
+                                {
+                                    "dialects": [
+                                        "American English"
+                                    ],
+                                    "phoneticNotation": "respell",
+                                    "phoneticSpelling": "heˈlō"
+                                },
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/hello__us_2_rr.mp3",
+                                    "dialects": [
+                                        "American English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "hɛˈloʊ"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "used as a greeting or to begin a phone conversation"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "hello there, Katie!"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0460730.012",
+                                    "shortDefinitions": [
+                                        "used as greeting"
+                                    ],
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "used to express surprise"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "hello, what's all this then?"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0460730.017",
+                                            "regions": [
+                                                {
+                                                    "id": "british",
+                                                    "text": "British"
+                                                }
+                                            ],
+                                            "shortDefinitions": [
+                                                "used to express surprise"
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "used as a cry to attract someone's attention"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "“Hello below!” he cried"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0460730.018",
+                                            "shortDefinitions": [
+                                                "used attract attention"
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "expressing sarcasm or anger"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "Hello! Did you even get what the play was about?"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0460730.019",
+                                            "shortDefinitions": [
+                                                "used informally to express sarcasm or anger"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "variantForms": [
+                                {
+                                    "text": "hallo"
+                                },
+                                {
+                                    "regions": [
+                                        {
+                                            "id": "british",
+                                            "text": "British"
+                                        }
+                                    ],
+                                    "text": "hullo"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-us",
+                    "lexicalCategory": {
+                        "id": "interjection",
+                        "text": "Interjection"
+                    },
+                    "text": "hello"
+                },
+                {
+                    "entries": [
+                        {
                             "inflections": [
                                 {
                                     "grammaticalFeatures": [
@@ -25,7 +149,7 @@
                                             "type": "Number"
                                         }
                                     ],
-                                    "inflectedForm": "furies"
+                                    "inflectedForm": "hellos"
                                 }
                             ],
                             "pronunciations": [
@@ -34,203 +158,106 @@
                                         "American English"
                                     ],
                                     "phoneticNotation": "respell",
-                                    "phoneticSpelling": "ˈfyo͞orē"
+                                    "phoneticSpelling": "həˈlō"
                                 },
                                 {
-                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/fury__us_1.mp3",
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/hello__us_1_rr.mp3",
                                     "dialects": [
                                         "American English"
                                     ],
                                     "phoneticNotation": "IPA",
-                                    "phoneticSpelling": "ˈfjuri"
+                                    "phoneticSpelling": "həˈloʊ"
+                                },
+                                {
+                                    "dialects": [
+                                        "American English"
+                                    ],
+                                    "phoneticNotation": "respell",
+                                    "phoneticSpelling": "heˈlō"
+                                },
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/hello__us_2_rr.mp3",
+                                    "dialects": [
+                                        "American English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "hɛˈloʊ"
                                 }
                             ],
                             "senses": [
                                 {
                                     "definitions": [
-                                        "wild or violent anger"
+                                        "an utterance of “hello”; a greeting"
                                     ],
                                     "examples": [
                                         {
-                                            "text": "tears of fury and frustration"
-                                        },
-                                        {
-                                            "text": "Rachel shouted, beside herself with fury"
+                                            "text": "she was getting polite nods and hellos from people"
                                         }
                                     ],
-                                    "id": "m_en_gbus0397210.007",
+                                    "id": "m_en_gbus0460730.025",
                                     "semanticClasses": [
                                         {
-                                            "id": "anger",
-                                            "text": "Anger"
+                                            "id": "greeting",
+                                            "text": "Greeting"
                                         }
                                     ],
                                     "shortDefinitions": [
-                                        "wild anger"
-                                    ],
-                                    "subsenses": [
-                                        {
-                                            "definitions": [
-                                                "a surge of violent anger or other feeling"
-                                            ],
-                                            "examples": [
-                                                {
-                                                    "text": "in a fury, he lashed the horse on"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0397210.009",
-                                            "notes": [
-                                                {
-                                                    "text": "\"a fury\"",
-                                                    "type": "wordFormNote"
-                                                }
-                                            ],
-                                            "semanticClasses": [
-                                                {
-                                                    "id": "anger",
-                                                    "text": "Anger"
-                                                }
-                                            ],
-                                            "shortDefinitions": [
-                                                "surge of wild anger"
-                                            ]
-                                        }
+                                        "utterance of ‘hello’"
                                     ],
                                     "synonyms": [
                                         {
                                             "language": "en",
-                                            "text": "rage"
+                                            "text": "greeting"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "anger"
+                                            "text": "welcome"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "wrath"
+                                            "text": "salutation"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "passion"
+                                            "text": "saluting"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "outrage"
+                                            "text": "hailing"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "spleen"
+                                            "text": "address"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "temper"
+                                            "text": "hello"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "savagery"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "frenzy"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "madness"
+                                            "text": "hallo"
                                         }
                                     ],
                                     "thesaurusLinks": [
                                         {
-                                            "entry_id": "fury",
-                                            "sense_id": "t_en_gb0006179.001"
+                                            "entry_id": "acknowledgement",
+                                            "sense_id": "t_en_gb0000184.002"
                                         }
                                     ]
+                                }
+                            ],
+                            "variantForms": [
+                                {
+                                    "text": "hallo"
                                 },
                                 {
-                                    "definitions": [
-                                        "violence or energy displayed in natural phenomena or in someone's actions"
-                                    ],
-                                    "examples": [
+                                    "regions": [
                                         {
-                                            "text": "the fury of a gathering storm"
-                                        },
-                                        {
-                                            "text": "she was paddling with a new fury"
+                                            "id": "british",
+                                            "text": "British"
                                         }
                                     ],
-                                    "id": "m_en_gbus0397210.011",
-                                    "semanticClasses": [
-                                        {
-                                            "id": "physical_property",
-                                            "text": "Physical_Property"
-                                        }
-                                    ],
-                                    "shortDefinitions": [
-                                        "extreme strength or violence"
-                                    ],
-                                    "synonyms": [
-                                        {
-                                            "language": "en",
-                                            "text": "fierceness"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "ferocity"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "violence"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "turbulence"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "tempestuousness"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "savagery"
-                                        }
-                                    ],
-                                    "thesaurusLinks": [
-                                        {
-                                            "entry_id": "fury",
-                                            "sense_id": "t_en_gb0006179.002"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "definitions": [
-                                        "a spirit of punishment, often represented as one of three goddesses who executed the curses pronounced upon criminals, tortured the guilty with stings of conscience, and inflicted famines and pestilences. The Furies were identified at an early date with the Eumenides."
-                                    ],
-                                    "domainClasses": [
-                                        {
-                                            "id": "mythology",
-                                            "text": "Mythology"
-                                        }
-                                    ],
-                                    "domains": [
-                                        {
-                                            "id": "greek_mythology",
-                                            "text": "Greek_Mythology"
-                                        }
-                                    ],
-                                    "id": "m_en_gbus0397210.015",
-                                    "semanticClasses": [
-                                        {
-                                            "id": "mythical_being",
-                                            "text": "Mythical_Being"
-                                        }
-                                    ],
-                                    "shortDefinitions": [
-                                        "spiritual being"
-                                    ],
-                                    "variantForms": [
-                                        {
-                                            "text": "Fury"
-                                        }
-                                    ]
+                                    "text": "hullo"
                                 }
                             ]
                         }
@@ -240,18 +267,125 @@
                         "id": "noun",
                         "text": "Noun"
                     },
-                    "phrases": [
+                    "text": "hello"
+                },
+                {
+                    "entries": [
                         {
-                            "id": "like_fury",
-                            "text": "like fury"
+                            "grammaticalFeatures": [
+                                {
+                                    "id": "intransitive",
+                                    "text": "Intransitive",
+                                    "type": "Subcategorization"
+                                }
+                            ],
+                            "inflections": [
+                                {
+                                    "grammaticalFeatures": [
+                                        {
+                                            "id": "intransitive",
+                                            "text": "Intransitive",
+                                            "type": "Subcategorization"
+                                        }
+                                    ],
+                                    "inflectedForm": "helloes"
+                                },
+                                {
+                                    "grammaticalFeatures": [
+                                        {
+                                            "id": "intransitive",
+                                            "text": "Intransitive",
+                                            "type": "Subcategorization"
+                                        }
+                                    ],
+                                    "inflectedForm": "helloing"
+                                },
+                                {
+                                    "grammaticalFeatures": [
+                                        {
+                                            "id": "intransitive",
+                                            "text": "Intransitive",
+                                            "type": "Subcategorization"
+                                        }
+                                    ],
+                                    "inflectedForm": "helloed"
+                                }
+                            ],
+                            "pronunciations": [
+                                {
+                                    "dialects": [
+                                        "American English"
+                                    ],
+                                    "phoneticNotation": "respell",
+                                    "phoneticSpelling": "həˈlō"
+                                },
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/hello__us_1_rr.mp3",
+                                    "dialects": [
+                                        "American English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "həˈloʊ"
+                                },
+                                {
+                                    "dialects": [
+                                        "American English"
+                                    ],
+                                    "phoneticNotation": "respell",
+                                    "phoneticSpelling": "heˈlō"
+                                },
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/hello__us_2_rr.mp3",
+                                    "dialects": [
+                                        "American English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "hɛˈloʊ"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "say or shout “hello”; greet someone"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "I pressed the phone button and helloed"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0460730.034",
+                                    "shortDefinitions": [
+                                        "say or shout ‘hello’"
+                                    ]
+                                }
+                            ],
+                            "variantForms": [
+                                {
+                                    "text": "hallo"
+                                },
+                                {
+                                    "regions": [
+                                        {
+                                            "id": "british",
+                                            "text": "British"
+                                        }
+                                    ],
+                                    "text": "hullo"
+                                }
+                            ]
                         }
                     ],
-                    "text": "fury"
+                    "language": "en-us",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "hello"
                 }
             ],
             "type": "headword",
-            "word": "fury"
+            "word": "hello"
         }
     ],
-    "word": "fury"
+    "word": "hello"
 }

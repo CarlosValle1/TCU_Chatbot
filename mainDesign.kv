@@ -1,13 +1,17 @@
 #: import RiseInTransition kivy.uix.screenmanager.RiseInTransition
 
 <ChatTextCard>:
-    size_hint: .9, None
+    size_hint: None, None
+    size_hint_max_x: .9
+    width: '0dp'
     height: '50dp'
     text: ''
+    textAlign: 'center'
     dateTime: ''
     radius: '10dp'
     spacing: '10dp'
     padding: ['10dp', '10dp', '10dp', '10dp']
+    margin: ['10dp', '10dp', '10dp', '10dp']
     orientation: 'vertical'
     ripple_behavior: True
     on_release:
@@ -15,8 +19,11 @@
     MDBoxLayout:
         orientation: 'horizontal'
         MDLabel:
+            id: textLabel
             text: root.text
-            halign: 'center'
+            halign: root.textAlign
+            font_name: './fonts/Inconsolata/static/Inconsolata/Inconsolata-Regular.ttf'
+            font_size: '20dp'
         MDLabel:
             text: root.dateTime
             size_hint: None, None
@@ -76,9 +83,11 @@
 
                         UserMsgTextCard:
                             text: 'Hola mundo!'
+                            width: '200dp'
 
                         BotMsgTextCard:
                             text: 'Hello world!'
+                            width: '200dp'
 
 
             # Chat footer (user input)
