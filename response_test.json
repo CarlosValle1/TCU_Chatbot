@@ -1,5 +1,5 @@
 {
-    "id": "control",
+    "id": "dog",
     "metadata": {
         "operation": "retrieve",
         "provider": "Oxford University Press",
@@ -7,14 +7,20 @@
     },
     "results": [
         {
-            "id": "control",
+            "id": "dog",
             "language": "en-us",
             "lexicalEntries": [
                 {
+                    "derivatives": [
+                        {
+                            "id": "doglike",
+                            "text": "doglike"
+                        }
+                    ],
                     "entries": [
                         {
                             "etymologies": [
-                                "late Middle English (as a verb in the sense ‘check or verify accounts’, especially by referring to a duplicate register): from Anglo-Norman French contreroller ‘keep a copy of a roll of accounts’, from medieval Latin contrarotulare, from contrarotulus ‘copy of a roll’, from contra- ‘against’ + rotulus ‘a roll’. The noun is perhaps via French contrôle"
+                                "Old English docga, of unknown origin"
                             ],
                             "pronunciations": [
                                 {
@@ -22,556 +28,436 @@
                                         "American English"
                                     ],
                                     "phoneticNotation": "respell",
-                                    "phoneticSpelling": "kənˈtrōl"
+                                    "phoneticSpelling": "dôɡ"
                                 },
                                 {
-                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/xcontrol__us_1.mp3",
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/dog__us_1_rr.mp3",
                                     "dialects": [
                                         "American English"
                                     ],
                                     "phoneticNotation": "IPA",
-                                    "phoneticSpelling": "kənˈtroʊl"
+                                    "phoneticSpelling": "dɔɡ"
                                 }
                             ],
                             "senses": [
                                 {
-                                    "constructions": [
-                                        {
-                                            "text": "under the control of"
-                                        },
-                                        {
-                                            "text": "out of control"
-                                        }
-                                    ],
                                     "definitions": [
-                                        "the power to influence or direct people's behavior or the course of events"
+                                        "a domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, nonretractable claws, and a barking, howling, or whining voice."
                                     ],
-                                    "examples": [
+                                    "domainClasses": [
                                         {
-                                            "text": "the whole operation is under the control of a production manager"
-                                        },
-                                        {
-                                            "text": "the situation was slipping out of her control"
+                                            "id": "mammal",
+                                            "text": "Mammal"
                                         }
                                     ],
-                                    "id": "m_en_gbus0215810.006",
+                                    "id": "m_en_gbus0287810.007",
+                                    "notes": [
+                                        {
+                                            "text": "Canis familiaris, family Canidae (the dog family); probably domesticated from the wolf in the Mesolithic period. The dog family also includes the wolves, coyotes, jackals, and foxes",
+                                            "type": "technicalNote"
+                                        }
+                                    ],
                                     "semanticClasses": [
                                         {
-                                            "id": "power",
-                                            "text": "Power"
+                                            "id": "canid",
+                                            "text": "Canid"
                                         }
                                     ],
                                     "shortDefinitions": [
-                                        "power to direct"
+                                        "domesticated carnivorous mammal"
                                     ],
                                     "subsenses": [
                                         {
                                             "definitions": [
-                                                "the ability to manage a machine, vehicle, or other moving object"
+                                                "a wild animal of the dog family."
                                             ],
-                                            "examples": [
+                                            "domainClasses": [
                                                 {
-                                                    "text": "he lost control of his car"
-                                                },
-                                                {
-                                                    "text": "improve your ball control"
+                                                    "id": "mammal",
+                                                    "text": "Mammal"
                                                 }
                                             ],
-                                            "id": "m_en_gbus0215810.008",
+                                            "id": "m_en_gbus0287810.012",
                                             "semanticClasses": [
                                                 {
-                                                    "id": "ability",
-                                                    "text": "Ability"
+                                                    "id": "canid",
+                                                    "text": "Canid"
                                                 }
                                             ],
                                             "shortDefinitions": [
-                                                "ability to manage machine, vehicle, or other moving object"
+                                                "animal of dog family"
                                             ]
                                         },
                                         {
                                             "definitions": [
-                                                "the restriction of an activity, tendency, or phenomenon"
+                                                "the male of an animal of the dog family, or of some other mammals such as the otter"
+                                            ],
+                                            "domainClasses": [
+                                                {
+                                                    "id": "zoology",
+                                                    "text": "Zoology"
+                                                }
                                             ],
                                             "examples": [
                                                 {
-                                                    "text": "pest control"
+                                                    "notes": [
+                                                        {
+                                                            "text": "as modifier",
+                                                            "type": "grammaticalNote"
+                                                        }
+                                                    ],
+                                                    "text": "a dog fox"
                                                 }
                                             ],
-                                            "id": "m_en_gbus0215810.009",
+                                            "id": "m_en_gbus0287810.013",
                                             "semanticClasses": [
                                                 {
-                                                    "id": "suppression",
-                                                    "text": "Suppression"
+                                                    "id": "canid",
+                                                    "text": "Canid"
                                                 }
                                             ],
                                             "shortDefinitions": [
-                                                "restriction of activity"
+                                                "male animal"
+                                            ]
+                                        }
+                                    ],
+                                    "synonyms": [
+                                        {
+                                            "language": "en",
+                                            "text": "canine"
+                                        },
+                                        {
+                                            "language": "en",
+                                            "text": "hound"
+                                        }
+                                    ],
+                                    "thesaurusLinks": [
+                                        {
+                                            "entry_id": "dog",
+                                            "sense_id": "t_en_gb0004343.001"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "an unpleasant, contemptible, or wicked man"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "come out, Michael, you dog!"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0287810.018",
+                                    "registers": [
+                                        {
+                                            "id": "derogatory",
+                                            "text": "Derogatory"
+                                        }
+                                    ],
+                                    "semanticClasses": [
+                                        {
+                                            "id": "disliked_person",
+                                            "text": "Disliked_Person"
+                                        }
+                                    ],
+                                    "shortDefinitions": [
+                                        "unpleasant man"
+                                    ],
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "used to refer to a person of a specified kind in a tone of playful reprimand, commiseration, or congratulation"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "your historian is a dull dog"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0287810.019",
+                                            "notes": [
+                                                {
+                                                    "text": "with adjective",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "registers": [
+                                                {
+                                                    "id": "informal",
+                                                    "text": "Informal"
+                                                }
+                                            ],
+                                            "semanticClasses": [
+                                                {
+                                                    "id": "specified_type",
+                                                    "text": "Specified_Type"
+                                                }
+                                            ],
+                                            "shortDefinitions": [
+                                                "person of specified kind"
                                             ],
                                             "synonyms": [
                                                 {
                                                     "language": "en",
-                                                    "text": "restraint"
+                                                    "text": "fellow"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "constraint"
+                                                    "text": "thing"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "limitation"
+                                                    "text": "individual"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "restriction"
+                                                    "text": "soul"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "check"
+                                                    "text": "character"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "curb"
+                                                    "text": "creature"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "brake"
+                                                    "text": "wretch"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "rein"
+                                                    "text": "beggar"
                                                 }
                                             ],
                                             "thesaurusLinks": [
                                                 {
-                                                    "entry_id": "control",
-                                                    "sense_id": "t_en_gb0002976.002"
+                                                    "entry_id": "dog",
+                                                    "sense_id": "t_en_gb0004343.003"
                                                 }
                                             ]
                                         },
                                         {
                                             "definitions": [
-                                                "the power to restrain something, especially one's own emotions or actions"
+                                                "used in various phrases to refer to someone who is abject or miserable, especially because they have been treated harshly"
                                             ],
                                             "examples": [
                                                 {
-                                                    "text": "give children time to get control of their emotions"
+                                                    "text": "I make him work like a dog"
+                                                },
+                                                {
+                                                    "text": "Rob was treated like a dog"
                                                 }
                                             ],
-                                            "id": "m_en_gbus0215810.010",
+                                            "id": "m_en_gbus0287810.020",
+                                            "shortDefinitions": [
+                                                "referring to someone harshly treated"
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a woman regarded as unattractive."
+                                            ],
+                                            "id": "m_en_gbus0287810.021",
+                                            "registers": [
+                                                {
+                                                    "id": "offensive",
+                                                    "text": "Offensive"
+                                                }
+                                            ],
                                             "semanticClasses": [
                                                 {
-                                                    "id": "ability",
-                                                    "text": "Ability"
+                                                    "id": "disliked_woman",
+                                                    "text": "Disliked_Woman"
                                                 }
                                             ],
                                             "shortDefinitions": [
-                                                "ability to restrain oneself"
-                                            ],
-                                            "synonyms": [
-                                                {
-                                                    "language": "en",
-                                                    "text": "self-control"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "self-restraint"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "restraint"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "self-command"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "self-mastery"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "self-discipline"
-                                                }
-                                            ],
-                                            "thesaurusLinks": [
-                                                {
-                                                    "entry_id": "control",
-                                                    "sense_id": "t_en_gb0002976.003"
-                                                }
+                                                "unattractive woman"
                                             ]
                                         },
                                         {
                                             "constructions": [
                                                 {
-                                                    "text": "controls on"
+                                                    "text": "a dog of a"
                                                 }
                                             ],
                                             "definitions": [
-                                                "a means of limiting or regulating something"
+                                                "a thing of poor quality; a failure"
                                             ],
                                             "examples": [
                                                 {
-                                                    "text": "growing controls on local spending"
+                                                    "text": "\n              a dog of a movie"
                                                 }
                                             ],
-                                            "id": "m_en_gbus0215810.011",
-                                            "notes": [
+                                            "id": "m_en_gbus0287810.023",
+                                            "registers": [
                                                 {
-                                                    "text": "often \"controls\"",
-                                                    "type": "wordFormNote"
+                                                    "id": "derogatory",
+                                                    "text": "Derogatory"
                                                 }
                                             ],
                                             "semanticClasses": [
                                                 {
-                                                    "id": "action",
-                                                    "text": "Action"
+                                                    "id": "disliked_thing",
+                                                    "text": "Disliked_Thing"
                                                 }
                                             ],
                                             "shortDefinitions": [
-                                                "means of limiting"
-                                            ]
-                                        },
-                                        {
-                                            "definitions": [
-                                                "a switch or other device by which a machine is regulated"
-                                            ],
-                                            "examples": [
-                                                {
-                                                    "text": "the volume control"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0215810.014",
-                                            "semanticClasses": [
-                                                {
-                                                    "id": "control",
-                                                    "text": "Control"
-                                                }
-                                            ],
-                                            "shortDefinitions": [
-                                                "switch on machine"
+                                                "poor-quality thing"
                                             ],
                                             "synonyms": [
                                                 {
                                                     "language": "en",
-                                                    "text": "switch"
+                                                    "text": "failure"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "knob"
+                                                    "text": "disaster"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "button"
+                                                    "text": "debacle"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "dial"
+                                                    "text": "catastrophe"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "handle"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "lever"
+                                                    "text": "loser"
                                                 }
                                             ],
                                             "thesaurusLinks": [
                                                 {
-                                                    "entry_id": "control",
-                                                    "sense_id": "t_en_gb0002976.004"
+                                                    "entry_id": "flop",
+                                                    "sense_id": "t_en_gb0005800.004"
                                                 }
-                                            ]
-                                        },
-                                        {
-                                            "definitions": [
-                                                "the place where a particular item is verified"
-                                            ],
-                                            "examples": [
-                                                {
-                                                    "text": "passport control"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0215810.015",
-                                            "semanticClasses": [
-                                                {
-                                                    "id": "facility",
-                                                    "text": "Facility"
-                                                }
-                                            ],
-                                            "shortDefinitions": [
-                                                "place from which system is directed"
-                                            ],
-                                            "synonyms": [
-                                                {
-                                                    "language": "en",
-                                                    "text": "headquarters"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "HQ"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "base"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "centre of operations"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "command post"
-                                                }
-                                            ],
-                                            "thesaurusLinks": [
-                                                {
-                                                    "entry_id": "control",
-                                                    "sense_id": "t_en_gb0002976.005"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "definitions": [
-                                                "the base from which a system or activity is directed"
-                                            ],
-                                            "examples": [
-                                                {
-                                                    "text": "communications could be established with central control"
-                                                },
-                                                {
-                                                    "text": "mission control"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0215810.016",
-                                            "semanticClasses": [
-                                                {
-                                                    "id": "facility",
-                                                    "text": "Facility"
-                                                }
-                                            ],
-                                            "shortDefinitions": [
-                                                "base from which system or activity is directed"
-                                            ]
-                                        },
-                                        {
-                                            "crossReferenceMarkers": [
-                                                "short for control key"
-                                            ],
-                                            "crossReferences": [
-                                                {
-                                                    "id": "control_key",
-                                                    "text": "control key",
-                                                    "type": "abbreviation of"
-                                                }
-                                            ],
-                                            "domainClasses": [
-                                                {
-                                                    "id": "computing",
-                                                    "text": "Computing"
-                                                }
-                                            ],
-                                            "domains": [
-                                                {
-                                                    "id": "computing",
-                                                    "text": "Computing"
-                                                }
-                                            ],
-                                            "examples": [
-                                                {
-                                                    "text": "note that Control plus various keys on the numeric keypad will move you around the text"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0215810.017",
-                                            "shortDefinitions": [
-                                                "control key"
                                             ]
                                         }
                                     ],
                                     "synonyms": [
                                         {
                                             "language": "en",
-                                            "text": "jurisdiction"
+                                            "text": "scoundrel"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "sway"
+                                            "text": "rogue"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "power"
+                                            "text": "villain"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "authority"
+                                            "text": "cur"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "command"
+                                            "text": "wretch"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "dominance"
+                                            "text": "reprobate"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "domination"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "government"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "mastery"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "leadership"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "rule"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "reign"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "sovereignty"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "supremacy"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "ascendancy"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "predominance"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "hegemony"
+                                            "text": "good-for-nothing"
                                         }
                                     ],
                                     "thesaurusLinks": [
                                         {
-                                            "entry_id": "control",
-                                            "sense_id": "t_en_gb0002976.001"
+                                            "entry_id": "dog",
+                                            "sense_id": "t_en_gb0004343.002"
                                         }
                                     ]
                                 },
                                 {
                                     "definitions": [
-                                        "a group or individual used as a standard of comparison for checking the results of a survey or experiment"
+                                        "a mechanical device for gripping."
                                     ],
                                     "domainClasses": [
                                         {
-                                            "id": "statistics",
-                                            "text": "Statistics"
+                                            "id": "mechanics",
+                                            "text": "Mechanics"
                                         }
                                     ],
-                                    "examples": [
-                                        {
-                                            "text": "they saw no difference between the cancer patients and the controls"
-                                        }
-                                    ],
-                                    "id": "m_en_gbus0215810.019",
+                                    "id": "m_en_gbus0287810.030",
                                     "semanticClasses": [
                                         {
-                                            "id": "reference_standard",
-                                            "text": "Reference_Standard"
+                                            "id": "clamp",
+                                            "text": "Clamp"
                                         }
                                     ],
                                     "shortDefinitions": [
-                                        "standard of comparison"
+                                        "gripping device"
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "feet"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "if only I could sit down and rest my tired dogs"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0287810.032",
+                                    "notes": [
+                                        {
+                                            "text": "\"dogs\"",
+                                            "type": "wordFormNote"
+                                        }
+                                    ],
+                                    "regions": [
+                                        {
+                                            "id": "north_american",
+                                            "text": "North_American"
+                                        }
+                                    ],
+                                    "registers": [
+                                        {
+                                            "id": "informal",
+                                            "text": "Informal"
+                                        }
+                                    ],
+                                    "semanticClasses": [
+                                        {
+                                            "id": "appendage",
+                                            "text": "Appendage"
+                                        }
+                                    ],
+                                    "shortDefinitions": [
+                                        "feet"
                                     ],
                                     "synonyms": [
                                         {
                                             "language": "en",
-                                            "text": "standard of comparison"
+                                            "text": "tootsie"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "benchmark"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "standard"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "check"
+                                            "text": "trotter"
                                         }
                                     ],
                                     "thesaurusLinks": [
                                         {
-                                            "entry_id": "control",
-                                            "sense_id": "t_en_gb0002976.006"
+                                            "entry_id": "foot",
+                                            "sense_id": "t_en_gb0005882.001"
                                         }
                                     ]
                                 },
                                 {
-                                    "definitions": [
-                                        "a member of an intelligence organization who personally directs the activities of a spy"
+                                    "crossReferenceMarkers": [
+                                        "short for firedog"
                                     ],
-                                    "domainClasses": [
+                                    "crossReferences": [
                                         {
-                                            "id": "intelligence",
-                                            "text": "Intelligence"
+                                            "id": "firedog",
+                                            "text": "firedog",
+                                            "type": "abbreviation of"
                                         }
                                     ],
-                                    "examples": [
-                                        {
-                                            "text": "he sat with his KGB control as the details of his new assignment were explained"
-                                        }
-                                    ],
-                                    "id": "m_en_gbus0215810.021",
-                                    "semanticClasses": [
-                                        {
-                                            "id": "spy",
-                                            "text": "Spy"
-                                        }
-                                    ],
-                                    "shortDefinitions": [
-                                        "person directing spy"
-                                    ]
-                                },
-                                {
-                                    "definitions": [
-                                        "a high card that will prevent the opponents from establishing a particular suit"
-                                    ],
-                                    "domainClasses": [
-                                        {
-                                            "id": "bridge",
-                                            "text": "Bridge"
-                                        }
-                                    ],
-                                    "domains": [
-                                        {
-                                            "id": "bridge",
-                                            "text": "Bridge"
-                                        }
-                                    ],
-                                    "examples": [
-                                        {
-                                            "text": "he has controls in both minor suits"
-                                        }
-                                    ],
-                                    "id": "m_en_gbus0215810.023",
-                                    "semanticClasses": [
-                                        {
-                                            "id": "playing_card",
-                                            "text": "Playing_Card"
-                                        }
-                                    ],
-                                    "shortDefinitions": [
-                                        "high card"
-                                    ]
+                                    "id": "m_en_gbus0287810.036"
                                 }
                             ]
                         }
@@ -581,34 +467,110 @@
                         "id": "noun",
                         "text": "Noun"
                     },
-                    "phrases": [
+                    "phrasalVerbs": [
                         {
-                            "id": "in_control",
-                            "text": "in control"
-                        },
-                        {
-                            "id": "out_of_control",
-                            "text": "out of control"
-                        },
-                        {
-                            "id": "under_control",
-                            "text": "under control"
+                            "id": "dog_out",
+                            "text": "dog out"
                         }
                     ],
-                    "text": "control"
+                    "phrases": [
+                        {
+                            "id": "a_dog%27s_age",
+                            "text": "a dog's age"
+                        },
+                        {
+                            "id": "a_dog%27s_life",
+                            "text": "a dog's life"
+                        },
+                        {
+                            "id": "dog_eat_dog",
+                            "text": "dog eat dog"
+                        },
+                        {
+                            "id": "every_dog_has_its_day",
+                            "text": "every dog has its day"
+                        },
+                        {
+                            "id": "go_to_the_dogs",
+                            "text": "go to the dogs"
+                        },
+                        {
+                            "id": "have_a_dog_in_the_fight",
+                            "text": "have a dog in the fight"
+                        },
+                        {
+                            "id": "like_a_dog_with_a_bone",
+                            "text": "like a dog with a bone"
+                        },
+                        {
+                            "id": "not_a_dog%27s_chance",
+                            "text": "not a dog's chance"
+                        },
+                        {
+                            "id": "put_on_the_dog",
+                            "text": "put on the dog"
+                        },
+                        {
+                            "id": "the_dogs_of_war",
+                            "text": "the dogs of war"
+                        },
+                        {
+                            "id": "throw_someone_to_the_dogs",
+                            "text": "throw someone to the dogs"
+                        },
+                        {
+                            "id": "you_can%27t_teach_an_old_dog_new_tricks",
+                            "text": "you can't teach an old dog new tricks"
+                        }
+                    ],
+                    "text": "dog"
                 },
                 {
+                    "derivatives": [
+                        {
+                            "id": "doglike",
+                            "text": "doglike"
+                        }
+                    ],
                     "entries": [
                         {
+                            "grammaticalFeatures": [
+                                {
+                                    "id": "transitive",
+                                    "text": "Transitive",
+                                    "type": "Subcategorization"
+                                }
+                            ],
                             "inflections": [
                                 {
-                                    "inflectedForm": "controls"
+                                    "grammaticalFeatures": [
+                                        {
+                                            "id": "transitive",
+                                            "text": "Transitive",
+                                            "type": "Subcategorization"
+                                        }
+                                    ],
+                                    "inflectedForm": "dogs"
                                 },
                                 {
-                                    "inflectedForm": "controlling"
+                                    "grammaticalFeatures": [
+                                        {
+                                            "id": "transitive",
+                                            "text": "Transitive",
+                                            "type": "Subcategorization"
+                                        }
+                                    ],
+                                    "inflectedForm": "dogging"
                                 },
                                 {
-                                    "inflectedForm": "controlled"
+                                    "grammaticalFeatures": [
+                                        {
+                                            "id": "transitive",
+                                            "text": "Transitive",
+                                            "type": "Subcategorization"
+                                        }
+                                    ],
+                                    "inflectedForm": "dogged"
                                 }
                             ],
                             "pronunciations": [
@@ -617,269 +579,107 @@
                                         "American English"
                                     ],
                                     "phoneticNotation": "respell",
-                                    "phoneticSpelling": "kənˈtrōl"
+                                    "phoneticSpelling": "dôɡ"
                                 },
                                 {
-                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/xcontrol__us_1.mp3",
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/dog__us_1_rr.mp3",
                                     "dialects": [
                                         "American English"
                                     ],
                                     "phoneticNotation": "IPA",
-                                    "phoneticSpelling": "kənˈtroʊl"
+                                    "phoneticSpelling": "dɔɡ"
                                 }
                             ],
                             "senses": [
                                 {
                                     "definitions": [
-                                        "determine the behavior or supervise the running of"
+                                        "follow (someone or their movements) closely and persistently"
                                     ],
                                     "examples": [
                                         {
-                                            "text": "he was appointed to control the company's marketing strategy"
+                                            "text": "photographers seemed to dog her every step"
                                         }
                                     ],
-                                    "id": "m_en_gbus0215810.028",
-                                    "notes": [
-                                        {
-                                            "text": "with object",
-                                            "type": "grammaticalNote"
-                                        }
-                                    ],
+                                    "id": "m_en_gbus0287810.041",
                                     "shortDefinitions": [
-                                        "direct and supervise"
+                                        "follow closely and persistently"
                                     ],
                                     "subsenses": [
                                         {
                                             "definitions": [
-                                                "maintain influence or authority over"
+                                                "(of a problem) cause continual trouble for"
                                             ],
                                             "examples": [
                                                 {
-                                                    "text": "you shouldn't have dogs if you can't control them"
+                                                    "text": "their finance committee has been dogged by controversy"
                                                 }
                                             ],
-                                            "id": "m_en_gbus0215810.034",
+                                            "id": "m_en_gbus0287810.047",
                                             "shortDefinitions": [
-                                                "maintain authority"
-                                            ]
-                                        },
-                                        {
-                                            "definitions": [
-                                                "limit the level, intensity, or numbers of"
-                                            ],
-                                            "examples": [
-                                                {
-                                                    "text": "he had to control his temper"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0215810.035",
-                                            "shortDefinitions": [
-                                                "limit"
+                                                "cause continual trouble for"
                                             ],
                                             "synonyms": [
                                                 {
                                                     "language": "en",
-                                                    "text": "restrain"
+                                                    "text": "trouble"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "keep in check"
+                                                    "text": "disturb"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "curb"
+                                                    "text": "worry"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "check"
+                                                    "text": "plague"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "contain"
+                                                    "text": "beset"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "hold back"
+                                                    "text": "torture"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "bridle"
+                                                    "text": "torment"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "rein in"
+                                                    "text": "rack"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "keep a tight rein on"
+                                                    "text": "bedevil"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "subdue"
+                                                    "text": "nag"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "suppress"
+                                                    "text": "vex"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "repress"
+                                                    "text": "harass"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "master"
+                                                    "text": "pester"
                                                 },
                                                 {
                                                     "language": "en",
-                                                    "text": "damp down"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "limit"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "restrict"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "impose limits on"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "set limits on"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "curb"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "cap"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "constrain"
+                                                    "text": "dog"
                                                 }
                                             ],
                                             "thesaurusLinks": [
                                                 {
-                                                    "entry_id": "control",
-                                                    "sense_id": "t_en_gb0002976.008"
-                                                },
-                                                {
-                                                    "entry_id": "control",
-                                                    "sense_id": "t_en_gb0002976.009"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "definitions": [
-                                                "remain calm and reasonable despite provocation"
-                                            ],
-                                            "examples": [
-                                                {
-                                                    "text": "he made an effort to control himself"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0215810.036",
-                                            "notes": [
-                                                {
-                                                    "text": "\"control oneself\"",
-                                                    "type": "wordFormNote"
-                                                }
-                                            ],
-                                            "shortDefinitions": [
-                                                "remain calm"
-                                            ],
-                                            "synonyms": [
-                                                {
-                                                    "language": "en",
-                                                    "text": "compose oneself"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "recover one's composure"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "regain one's composure"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "control oneself"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "recover one's self-control"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "regain one's self-control"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "pull oneself together"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "keep one's head"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "simmer down"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "cool down"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "cool off"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "take it easy"
-                                                }
-                                            ],
-                                            "thesaurusLinks": [
-                                                {
-                                                    "entry_id": "calm",
-                                                    "sense_id": "t_en_gb0001970.007"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "definitions": [
-                                                "regulate (a mechanical or scientific process)"
-                                            ],
-                                            "examples": [
-                                                {
-                                                    "text": "the airflow is controlled by a fan"
-                                                }
-                                            ],
-                                            "id": "m_en_gbus0215810.037",
-                                            "shortDefinitions": [
-                                                "regulate process"
-                                            ],
-                                            "synonyms": [
-                                                {
-                                                    "language": "en",
-                                                    "text": "regulate"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "modulate"
-                                                },
-                                                {
-                                                    "language": "en",
-                                                    "text": "adjust"
-                                                }
-                                            ],
-                                            "thesaurusLinks": [
-                                                {
-                                                    "entry_id": "control",
-                                                    "sense_id": "t_en_gb0002976.010"
+                                                    "entry_id": "assail",
+                                                    "sense_id": "t_en_gb0000876.002"
                                                 }
                                             ]
                                         }
@@ -887,107 +687,96 @@
                                     "synonyms": [
                                         {
                                             "language": "en",
-                                            "text": "be in charge of"
+                                            "text": "pursue"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "run"
+                                            "text": "follow"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "be in control of"
+                                            "text": "stalk"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "manage"
+                                            "text": "track"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "direct"
+                                            "text": "trail"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "administer"
+                                            "text": "shadow"
                                         },
                                         {
                                             "language": "en",
-                                            "text": "head"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "preside over"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "have authority over"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "supervise"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "superintend"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "oversee"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "guide"
-                                        },
-                                        {
-                                            "language": "en",
-                                            "text": "steer"
+                                            "text": "hound"
                                         }
                                     ],
                                     "thesaurusLinks": [
                                         {
-                                            "entry_id": "control",
-                                            "sense_id": "t_en_gb0002976.007"
+                                            "entry_id": "dog",
+                                            "sense_id": "t_en_gb0004343.004"
                                         }
                                     ]
                                 },
                                 {
                                     "definitions": [
-                                        "take into account (an extraneous factor that might affect results) when performing an experiment"
+                                        "act lazily; fail to try one's hardest"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "Eric had a reputation for dogging it a little"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0287810.049",
+                                    "notes": [
+                                        {
+                                            "text": "\"dog it\"",
+                                            "type": "wordFormNote"
+                                        }
+                                    ],
+                                    "regions": [
+                                        {
+                                            "id": "north_american",
+                                            "text": "North_American"
+                                        }
+                                    ],
+                                    "registers": [
+                                        {
+                                            "id": "informal",
+                                            "text": "Informal"
+                                        }
+                                    ],
+                                    "shortDefinitions": [
+                                        "be lazy"
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "grip (something) with a mechanical device"
                                     ],
                                     "domainClasses": [
                                         {
-                                            "id": "statistics",
-                                            "text": "Statistics"
+                                            "id": "mechanics",
+                                            "text": "Mechanics"
                                         }
                                     ],
                                     "examples": [
                                         {
-                                            "text": "no attempt was made to control for variations"
-                                        }
-                                    ],
-                                    "id": "m_en_gbus0215810.041",
-                                    "notes": [
-                                        {
-                                            "text": "no object",
-                                            "type": "grammaticalNote"
-                                        },
-                                        {
-                                            "text": "\"control for\"",
-                                            "type": "wordFormNote"
-                                        }
-                                    ],
-                                    "shortDefinitions": [
-                                        "take factor into account"
-                                    ],
-                                    "subsenses": [
-                                        {
-                                            "definitions": [
-                                                "check; verify."
+                                            "notes": [
+                                                {
+                                                    "text": "with object and complement",
+                                                    "type": "grammaticalNote"
+                                                }
                                             ],
-                                            "id": "m_en_gbus0215810.042",
-                                            "shortDefinitions": [
-                                                "check"
-                                            ]
+                                            "text": "she has dogged the door shut"
                                         }
+                                    ],
+                                    "id": "m_en_gbus0287810.051",
+                                    "shortDefinitions": [
+                                        "grip with mechanical device"
                                     ]
                                 }
                             ]
@@ -998,26 +787,68 @@
                         "id": "verb",
                         "text": "Verb"
                     },
-                    "phrases": [
+                    "phrasalVerbs": [
                         {
-                            "id": "in_control",
-                            "text": "in control"
-                        },
-                        {
-                            "id": "out_of_control",
-                            "text": "out of control"
-                        },
-                        {
-                            "id": "under_control",
-                            "text": "under control"
+                            "id": "dog_out",
+                            "text": "dog out"
                         }
                     ],
-                    "text": "control"
+                    "phrases": [
+                        {
+                            "id": "a_dog%27s_age",
+                            "text": "a dog's age"
+                        },
+                        {
+                            "id": "a_dog%27s_life",
+                            "text": "a dog's life"
+                        },
+                        {
+                            "id": "dog_eat_dog",
+                            "text": "dog eat dog"
+                        },
+                        {
+                            "id": "every_dog_has_its_day",
+                            "text": "every dog has its day"
+                        },
+                        {
+                            "id": "go_to_the_dogs",
+                            "text": "go to the dogs"
+                        },
+                        {
+                            "id": "have_a_dog_in_the_fight",
+                            "text": "have a dog in the fight"
+                        },
+                        {
+                            "id": "like_a_dog_with_a_bone",
+                            "text": "like a dog with a bone"
+                        },
+                        {
+                            "id": "not_a_dog%27s_chance",
+                            "text": "not a dog's chance"
+                        },
+                        {
+                            "id": "put_on_the_dog",
+                            "text": "put on the dog"
+                        },
+                        {
+                            "id": "the_dogs_of_war",
+                            "text": "the dogs of war"
+                        },
+                        {
+                            "id": "throw_someone_to_the_dogs",
+                            "text": "throw someone to the dogs"
+                        },
+                        {
+                            "id": "you_can%27t_teach_an_old_dog_new_tricks",
+                            "text": "you can't teach an old dog new tricks"
+                        }
+                    ],
+                    "text": "dog"
                 }
             ],
             "type": "headword",
-            "word": "control"
+            "word": "dog"
         }
     ],
-    "word": "control"
+    "word": "dog"
 }
